@@ -10,18 +10,26 @@ body {
 
 .portfolio {
 	.contact-info {
+		margin-top: 3em;
 		text-align: center;
+		h1 {
+			font: 48px Optima, -apple-system, Helvetica, sans-serif;
+//			letter-spacing: 0.1em;
+			margin-bottom: 0;
+		}
+		address {
+			font-style: normal;
+		}
 	}
 	section.category {
 		margin-top: 2em;
 		h1 {
 			color: #e39300;
 			border-bottom: 1px solid #c98200;
+			margin-bottom: 1em;
 		}
-		p {
-//			font-size: 18px;
-//			line-height: 1.2;
-//			font: 18px/1.5 Georgia, serif;
+		img {
+			margin-bottom: 1em;
 		}
 	}
 }
