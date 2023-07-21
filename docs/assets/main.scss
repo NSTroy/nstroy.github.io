@@ -1,0 +1,27 @@
+---
+---
+
+@import "minima";
+
+body {
+	color: #a0a0a0;
+	background-color: #202020;
+}
+
+.portfolio {
+	.contact-info {
+		text-align: center;
+	}
+	section.category {
+		margin-top: 2em;
+		h1 {
+			color: #e39300;
+			border-bottom: 1px solid #c98200;
+		}
+		p {
+//			font-size: 18px;
+//			line-height: 1.2;
+//			font: 18px/1.5 Georgia, serif;
+		}
+	}
+}

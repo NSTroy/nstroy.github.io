@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Coherence Labs
+title: Coherence Labs GitHub Pages
 email: support@coherencelabs.com
 description: Coherence Labs GitHub Pages
 domain: coherencelabs.github.io
