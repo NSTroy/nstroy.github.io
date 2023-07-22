@@ -7,7 +7,7 @@ permalink: /portfolio/
 <img src="/images/WWDC2015-Troy-1.jpg" />
 
 <section class="contact-info">
-<h1>Troy N. Stephens</h1>
+<h1>Troy Stephens</h1>
 <address>
 <p><span class="mailing-address">Mountain Lakes, New Jersey, USA</span><br />
 <a href="https://about.me/troystephens">about.me</a>
@@ -17,20 +17,10 @@ permalink: /portfolio/
 <a href="https://github.com/CoherenceLabs">GitHub</a>
 •
 <a href="https://www.twitter.com/heytroy">Twitter</a><br />
-<span class="email-address"><a href="mailto:troy@coherencelabs.com?subject=prospect">troy@coherencelabs.com</a></span>
+<a href="mailto:troy@coherencelabs.com?subject=prospect">troy@coherencelabs.com</a>
 </p>
 
 </address>
-</section>
-
-
-
-<section class="category">
-
-<h1>App Development</h1>
-
-<p>I have several years&rsquo; experience as an indie macOS developer, having designed, developed, and delivered the <a href="https://coherencelabs.com/typemetal/">TypeMetal</a> HTML + WordPress authoring app to the Mac App Store. This has given me experience with App Store requirements, the submission/review process, and how to get things done from the outside. I’ve leveraged my Apple platform expertise to help 3rd party apps like <a href="https://www.git-tower.com">Tower</a> add <a href="https://www.git-tower.com/blog/tower-mac-10/">new features and enhancements</a>.</p>
-
 </section>
 
 
@@ -47,7 +37,19 @@ permalink: /portfolio/
 
 <section class="category">
 
+<h1>App Development</h1>
+
+<p>As an independent macOS developer, I designed, developed, and delivered the <a href="https://coherencelabs.com/typemetal/">TypeMetal</a> HTML + WordPress authoring app to the Mac App Store. This has given me experience with App Store requirements, the submission/review process, and how to get things done from the outside. I’ve leveraged my Apple platform expertise to help 3rd party apps like <a href="https://www.git-tower.com">Tower</a> add <a href="https://www.git-tower.com/blog/tower-mac-10/">new features and enhancements</a>.</p>
+
+</section>
+
+
+
+<section class="category">
+
 <h1>Game <span class="ampersand">&amp;</span> Game Tools Development</h1>
+
+<img src="/images/TextureLayout2.png">
 
 <p>In the game industry, I’ve built art pipeline tools to process 3D assets and manage VRAM layout, and implemented special effects, retexturing, LOD and dynamic subdivision, and realtime animation adjustments, dropping to R3000 assembly where needed to optimize for tightly resource-constrained Sony PlayStation hardware. My math and physics background has provided a solid foundation for conceptualizing and solving problems in 3D worlds.</p>
 
@@ -111,7 +113,19 @@ permalink: /portfolio/
 
 <section class="category">
 
+<h1>Technical Writing</h1>
+
+<p>I’ve developed carefully documented sample code, written detailed API proposals, and wrote <a href="https://coherencelabs.com/typemetal-additions/manual/">TypeMetal’s User Guide</a>.</p>
+
+</section>
+
+
+
+<section class="category">
+
 <h1>Web Authoring Tools Development</h1>
+
+<img src="https://coherencelabs.com/typemetal-additions/manual/img/brick-mode-with-single-brick-selection@2x.jpg">
 
 <p>I designed and developed <a title="Coherence Labs: TypeMetal" href="https://coherencelabs.com/typemetal/">TypeMetal</a> — Coherence Labs’ groundbreaking semantic HTML editor and WordPress client for macOS. TypeMetal’s unique engine combines a directly editable CSS-styled view with an efficient keyboard interface and precise control over generating sparse, streamlined, modern HTML that greatly exceeds expectations for a visual web content editor. TypeMetal’s editing engine relies heavily on careful, undoable DOM tree manipulation.</p>
 
