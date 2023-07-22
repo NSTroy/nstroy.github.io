@@ -1,0 +1,48 @@
+---
+---
+
+@import "minima";
+
+body {
+	color: #808080;
+	background-color: #202020;
+}
+
+.site-title, .site-title:visited, .site-nav .page-link {
+	color: #808080;
+}
+
+.portfolio {
+	a {
+		color: #557594;
+		border-bottom: 1px dotted #557594;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #0080ff;
+		border-bottom: 1px solid #0080ff;
+		text-decoration: none;
+	}
+	.contact-info {
+		margin-top: 3em;
+		text-align: center;
+		h1 {
+			font: 48px Optima, -apple-system, Helvetica, sans-serif;
+			margin-bottom: 0;
+		}
+		address {
+			font-style: normal;
+		}
+	}
+	section.category {
+		margin-top: 4em;
+		h1 {
+			color: #e39300;
+			border-bottom: 1px solid #c98200;
+			margin-bottom: 1em;
+		}
+		img {
+			margin-bottom: 1em;
+		}
+	}
+}
