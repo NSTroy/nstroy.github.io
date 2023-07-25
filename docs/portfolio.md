@@ -4,24 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<img src="/images/WWDC2015-Troy-1.jpg" />
-
-<section class="contact-info">
-<h1>Troy Stephens</h1>
-<address>
-<p><span class="mailing-address">Mountain Lakes, New Jersey, USA</span><br />
-<a href="https://about.me/troystephens">about.me</a>
-•
-<a href="https://www.linkedin.com/in/troystephens/">LinkedIn</a>
-•
-<a href="https://github.com/CoherenceLabs">GitHub</a>
-•
-<a href="https://www.twitter.com/heytroy">Twitter</a><br />
-<a href="mailto:troy@coherencelabs.com?subject=prospect">troy@coherencelabs.com</a>
-</p>
-
-</address>
-</section>
+{%- include portfolio-top.html -%}
 
 
 
@@ -71,7 +54,13 @@ permalink: /portfolio/
 
 <h1>App Development</h1>
 
-<p>As an independent macOS developer, I designed, developed, and delivered the <a href="https://coherencelabs.com/typemetal/">TypeMetal</a> HTML + WordPress authoring app to the <a href="https://apps.apple.com/us/app/typemetal/id647212021?mt=12">Mac App Store</a>. In the course of creating and deploying TypeMetal, I’ve built experience with App Store requirements, the submission/review process, and how to get things done from the outside. I’ve also leveraged my Apple platform expertise to help 3rd party apps like <a href="https://www.git-tower.com">Tower</a> add <a href="https://www.git-tower.com/blog/tower-mac-10/">new features and enhancements</a>.</p>
+<a href="https://coherencelabs.com/typemetal/"><img src="https://coherencelabs.com/wp-content/uploads/2022/04/TypeMetal-MacAppStore-screen-shot-1-scaled.jpg"></a>
+
+<p>I designed and developed <a title="Coherence Labs: TypeMetal" href="https://coherencelabs.com/typemetal/">TypeMetal</a> — Coherence Labs’ groundbreaking semantic HTML editor and WordPress client for macOS. Working solo, I produced an editor that one reviewer <a href="https://coherencelabs.com/typemetal/">described</a> as "objectively superior to Dreamweaver’s Design view in every imaginable way."</p>
+
+<p>TypeMetal’s unique engine combines a directly editable CSS-styled view with an efficient keyboard interface and precise control over generating sparse, streamlined, modern HTML that greatly exceeds expectations for a visual web content editor. TypeMetal’s editing engine relies heavily on careful, undoable DOM tree manipulation.</p>
+
+<p>In the course of creating and deploying TypeMetal to Apple’s <a href="https://apps.apple.com/us/app/typemetal/id647212021?mt=12">Mac App Store</a>, I’ve built experience with App Store requirements, the submission/review process, and how to get things done from the outside. I’ve also leveraged my Apple platform expertise to help 3rd party apps like <a href="https://www.git-tower.com">Tower</a> add <a href="https://www.git-tower.com/blog/tower-mac-10/">new features and enhancements</a>.</p>
 
 </section>
 
@@ -114,18 +103,6 @@ permalink: /portfolio/
 <h1>Technical Writing</h1>
 
 <p>I’ve developed carefully documented sample code, written detailed API proposals, and wrote <a href="https://coherencelabs.com/typemetal-additions/manual/">TypeMetal’s User Guide</a>.</p>
-
-</section>
-
-
-
-<section class="category">
-
-<h1>Web Authoring Tools Development</h1>
-
-<a href="https://coherencelabs.com/typemetal/"><img src="https://coherencelabs.com/wp-content/uploads/2022/01/256.png"></a>
-
-<p>I designed and developed <a title="Coherence Labs: TypeMetal" href="https://coherencelabs.com/typemetal/">TypeMetal</a> — Coherence Labs’ groundbreaking semantic HTML editor and WordPress client for macOS. Working solo, I produced an editor that one user <a href="https://coherencelabs.com/typemetal/">described</a> as "objectively superior to Dreamweaver’s Design view in every imaginable way." TypeMetal’s unique engine combines a directly editable CSS-styled view with an efficient keyboard interface and precise control over generating sparse, streamlined, modern HTML that greatly exceeds expectations for a visual web content editor. TypeMetal’s editing engine relies heavily on careful, undoable DOM tree manipulation.</p>
 
 </section>
 

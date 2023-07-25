@@ -12,7 +12,7 @@ body {
 	color: #808080;
 }
 
-.portfolio {
+.portfolio, .resume {
 	a {
 		color: #557594;
 		border-bottom: 1px dotted #557594;
@@ -30,21 +30,106 @@ body {
 			font: 48px Optima, -apple-system, Helvetica, sans-serif;
 			margin-bottom: 0;
 		}
+		.title {
+			font: 24px Optima, -apple-system, Helvetica, sans-serif;
+			margin-bottom: 0;
+		}
 		address {
 			font-style: normal;
 		}
 	}
-	section.category {
+	.summary {
+		margin-top: 3em;
+		text-align: center;
+	}
+	nav {
+		margin-top: 3em;
+		text-align: center;
+		a {
+			box-sizing: border-box;
+			font-weight: bold;
+			color: #505050;
+			display: inline-block;
+			padding: 1em 2em;
+			margin: 0 1em;
+			background: #303030;
+			border: 2px solid #404040;
+			border-radius: 16px;
+		}
+		a:hover {
+			box-sizing: border-box;
+			color: inherit;
+			border: 2px solid #404040;
+		}
+	}
+	section.category, .experience, .education, .knowledge {
 		margin-top: 4em;
 		h1 {
 			color: #e39300;
 			border-bottom: 1px solid #c98200;
 			margin-bottom: 1em;
 		}
+		h2 {
+			font-size: 18px;
+			font-weight: bold;
+		}
 		img {
 			display: block;
 			margin: 0 auto 1em auto;
 			max-width: 100%;
 		}
+		.old {
+		    color: #585858;
+		}
 	}
+}
+
+.portfolio nav a.portfolio, .resume nav a.resume {
+	box-sizing: border-box;
+	color: inherit;
+	background: #202020;
+}
+
+.portfolio nav a:hover, .resume nav a:hover {
+	color: inherit;
+	background: #202020;
+}
+
+.resume {
+	.experience, .education, .knowledge {
+		h1 {
+			color: inherit;
+			border-bottom: 1px solid #808080;
+		}
+	}
+}
+
+.job .heading, .school .heading {
+	margin-bottom: 0.5em;
+}
+
+.job .description, .school .description {
+    margin-bottom: 2.0em;
+}
+
+.job, .school {
+    margin-bottom: 1em;
+}
+
+.job .title, .job .company, .school .name {
+    font-weight: bold;
+}
+
+.job .dates, .school .dates {
+    float: right;
+    display: block;
+    font-style: italic;
+}
+
+.job .heading:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
