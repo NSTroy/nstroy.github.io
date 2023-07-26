@@ -3,24 +3,32 @@
 
 @import "minima";
 
+$text-color: #808080;
+$main-heading-color: #e39300;
+$main-heading-underline-color: #c98200;
+$link-color: #557594;
+$nav-button-border-color: #404040;
+$active-page-link-color: #505050;
+$hovered-link-color: #0080ff;
+
 body {
-	color: #808080;
+	color: $text-color;
 	background-color: #202020;
 }
 
 .site-title, .site-title:visited, .site-nav .page-link {
-	color: #808080;
+	color: $text-color;
 }
 
 .portfolio, .resume {
 	a {
-		color: #557594;
-		border-bottom: 1px dotted #557594;
+		color: $link-color;
+		border-bottom: 1px dotted $link-color;
 		text-decoration: none;
 	}
 	a:hover {
-		color: #0080ff;
-		border-bottom: 1px solid #0080ff;
+		color: $hovered-link-color;
+		border-bottom: 1px solid $hovered-link-color;
 		text-decoration: none;
 	}
 	.contact-info {
@@ -48,25 +56,24 @@ body {
 		a {
 			box-sizing: border-box;
 			font-weight: bold;
-			color: #505050;
+			color: $text-color;
 			display: inline-block;
 			padding: 1em 2em;
 			margin: 0 1em;
-			background: #303030;
-			border: 2px solid #404040;
+			border: 2px solid transparent;
 			border-radius: 16px;
 		}
 		a:hover {
 			box-sizing: border-box;
 			color: inherit;
-			border: 2px solid #404040;
+			border: 2px solid $nav-button-border-color;
 		}
 	}
 	section.category, .experience, .education, .knowledge {
 		margin-top: 4em;
 		h1 {
-			color: #e39300;
-			border-bottom: 1px solid #c98200;
+			color: $main-heading-color;
+			border-bottom: 1px solid $main-heading-underline-color;
 			margin-bottom: 1em;
 		}
 		h2 {
@@ -86,20 +93,20 @@ body {
 
 .portfolio nav a.portfolio, .resume nav a.resume {
 	box-sizing: border-box;
-	color: inherit;
-	background: #202020;
+	color: $active-page-link-color;
+	border-color: $active-page-link-color;
 }
 
-.portfolio nav a:hover, .resume nav a:hover {
-	color: inherit;
-	background: #202020;
+.portfolio nav a.resume:hover, .resume nav a.portfolio:hover {
+	color: $hovered-link-color;
+	border-color: $hovered-link-color;
 }
 
 .resume {
 	.experience, .education, .knowledge {
 		h1 {
 			color: inherit;
-			border-bottom: 1px solid #808080;
+			border-bottom: 1px solid $text-color;
 		}
 	}
 }
@@ -132,4 +139,17 @@ body {
     height: 0;
     clear: both;
     visibility: hidden;
+}
+
+footer {
+	p {
+		font-size: 80%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 120%;
+	}
 }
