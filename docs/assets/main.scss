@@ -8,7 +8,7 @@ $main-heading-color: #e39300;
 $main-heading-underline-color: #c98200;
 $link-color: #557594;
 $nav-button-border-color: #404040;
-$active-page-link-color: #505050;
+$active-page-link-color: $main-heading-underline-color;
 $hovered-link-color: #0080ff;
 
 body {
@@ -51,6 +51,7 @@ body {
 		text-align: center;
 	}
 	nav {
+		box-sizing: border-box;
 		margin-top: 3em;
 		text-align: center;
 		a {
@@ -58,15 +59,12 @@ body {
 			font-weight: bold;
 			color: $text-color;
 			display: inline-block;
-			padding: 1em 2em;
-			margin: 0 1em;
-			border: 2px solid transparent;
-			border-radius: 16px;
+			margin: 0 2em;
+			border-bottom: 2px solid transparent;
 		}
 		a:hover {
 			box-sizing: border-box;
-			color: inherit;
-			border: 2px solid $nav-button-border-color;
+			border-bottom: 2px solid $hovered-link-color;
 		}
 	}
 	section.category, .experience, .education, .knowledge {
@@ -92,14 +90,8 @@ body {
 }
 
 .portfolio nav a.portfolio, .resume nav a.resume {
-	box-sizing: border-box;
 	color: $active-page-link-color;
 	border-color: $active-page-link-color;
-}
-
-.portfolio nav a.resume:hover, .resume nav a.portfolio:hover {
-	color: $hovered-link-color;
-	border-color: $hovered-link-color;
 }
 
 .resume {

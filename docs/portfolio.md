@@ -56,7 +56,7 @@ permalink: /portfolio/
 
 <a target="_blank" href="https://coherencelabs.com/typemetal/"><img src="https://coherencelabs.com/wp-content/uploads/2022/04/TypeMetal-MacAppStore-screen-shot-1-scaled.jpg"></a>
 
-<p>I designed and developed <a title="Coherence Labs: TypeMetal" href="https://coherencelabs.com/typemetal/">TypeMetal</a> — Coherence Labs’ groundbreaking semantic HTML editor and WordPress client for macOS. Working solo, I produced an editor that one reviewer <a target="_blank" href="https://coherencelabs.com/typemetal/">described</a> as "objectively superior to Dreamweaver’s Design view in every imaginable way."</p>
+<p>I designed and developed <a title="Coherence Labs: TypeMetal" href="https://coherencelabs.com/typemetal/">TypeMetal</a> — Coherence Labs’ groundbreaking semantic HTML editor and WordPress client for macOS. Working solo, I produced an editor that one reviewer <a target="_blank" href="https://coherencelabs.com/typemetal/">described</a> as “objectively superior to Dreamweaver’s Design view in every imaginable way.”</p>
 
 <p>TypeMetal’s unique engine combines a directly editable CSS-styled view with an efficient keyboard interface and precise control over generating sparse, streamlined, modern HTML that greatly exceeds expectations for a visual web content editor. TypeMetal’s editing engine relies heavily on careful, undoable DOM tree manipulation.</p>
 
@@ -88,11 +88,21 @@ permalink: /portfolio/
 
 <section class="category">
 
+<h1>Networking and Backend Interfacing</h1>
+
+<p>I developed <a target="_blank" href="https://coherencelabs.com/typemetal/">TypeMetal</a>’s content sync engine and REST- and XML-RPC based WordPress interfacing, and did chipset-level serial comms. programming and protocol implementation back when dialup ran the world.</p>
+
+</section>
+
+
+
+<section class="category">
+
 <h1>Presenting</h1>
 
 <img src="/images/WWDC2019-CompositionalLayoutTalk-Troy.jpg" />
 
-<p>As an engineer on the AppKit team, I enjoyed the opportunity to present work at Apple&rsquo;s World Wide Developer Conference (WWDC), leveraging Apple-internal speaker training and content refinement support to give 12 talks over the years, to rooms of up to 3,000 attendees.  This most often involved designing a presentation from scratch and developing illustrative sample code, sometimes in collaboration with co-presenters.  I also designed and gave internal "SpotlightOn" talks for fellow Apple engineers.  I enjoy delivering quality content, motivating ideas clearly, and helping seed the spark that leads to new ideas, products, and enhancements.</p>
+<p>As an engineer on the AppKit team, I enjoyed the opportunity to present work at Apple&rsquo;s World Wide Developer Conference (WWDC), leveraging Apple-internal speaker training and content refinement support to give 12 talks over the years, to rooms of up to 3,000 attendees.  This most often involved designing a presentation from scratch and developing illustrative sample code, sometimes in collaboration with co-presenters.  I also designed and gave internal “SpotlightOn” talks for fellow Apple engineers.  I enjoy delivering quality content, motivating ideas clearly, and helping seed the spark that leads to new ideas, products, and enhancements.</p>
 
 <p>Example: <a target="_blank" href="https://developer.apple.com/videos/play/wwdc2019-220/?time=466">Advances in UI Data Sources (2019)</a></p>
 
@@ -129,3 +139,11 @@ permalink: /portfolio/
 </section>
 
 
+
+<section class="category">
+
+<h1>Next Frontiers</h1>
+
+<p>In hand with my passion for next physical frontiers, I’m strongly interested in new virtual frontiers in decentralized finance and blockchain commerce, and their potential to support self-sovereignty and censorship-resistant communication. I’m actively absorbing knowledge about related systems and technologies, including Bitcoin, Ethereum, Avalanche, Rust, and Go, and would welcome the opportunity to work more deeply in these areas.</p>
+
+</section>
