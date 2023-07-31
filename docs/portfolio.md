@@ -144,6 +144,6 @@ permalink: /portfolio/
 
 <h1>Next Frontiers</h1>
 
-<p>In hand with my passion for next physical frontiers, I’m strongly interested in new virtual frontiers in decentralized finance and blockchain commerce, and their potential to support self-sovereignty and censorship-resistant communication. I’m actively absorbing knowledge about related systems and technologies, including Bitcoin, Ethereum, Avalanche, Rust, and Go, and would welcome the opportunity to work more deeply in these areas.</p>
+<p>In hand with my passion for next physical frontiers, I’m strongly interested in new virtual frontiers in decentralized finance and blockchain commerce, and their potential to support self-sovereignty and censorship-resistant communication. I’m actively absorbing knowledge about related systems and technologies, including Bitcoin, Ethereum, Avalanche, Rust, and Go, and would welcome the opportunity to work more deeply in these areas. I’ve also begun leveraging TypeScript to refactor TypeMetal’s DOM tree editing engine for broader portability.</p>
 
 </section>
