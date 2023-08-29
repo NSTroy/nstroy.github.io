@@ -34,7 +34,7 @@ permalink: /portfolio/
 
 <img src="/images/Starship-First-Orbital-liftoff-2023-04-20.jpg" />
 
-<p>As a SpaceX engineer, I contributed to flight control software that <a target="_blank" href="https://youtu.be/_krgcofiM6M">flew</a> on the <a target="_blank" href="https://www.spacex.com/vehicles/starship/">Starship</a> project’s SuperHeavy booster on April 20, 2023. Working with an incredibly talented team, I assisted with sensor interfacing and Guidance, Navigation, and Control (GNC).</p>
+<p>As a SpaceX engineer, I contributed to flight control software that <a target="_blank" href="https://youtu.be/_krgcofiM6M">flew</a> on the <a target="_blank" href="https://www.spacex.com/vehicles/starship/">Starship</a> project’s SuperHeavy booster on April 20, 2023. Working with an incredibly talented team, I assisted with sensor interfacing and Guidance, Navigation, and Control (GNC), working in C++ and a Python-based scripting language.</p>
 
 </section>
 
@@ -62,6 +62,8 @@ permalink: /portfolio/
 
 <p>In the course of creating and deploying TypeMetal to Apple’s <a target="_blank" href="https://apps.apple.com/us/app/typemetal/id647212021?mt=12">Mac App Store</a>, I’ve built experience with App Store requirements, the submission/review process, and how to get things done from the outside. I’ve also leveraged my Apple platform expertise to help 3rd party apps like <a target="_blank" href="https://www.git-tower.com">Tower</a> add <a target="_blank" href="https://www.git-tower.com/blog/tower-mac-10/">new features and enhancements</a>.</p>
 
+<p>TypeMetal 3’s development has entailed a move to Swift and TypeScript for most new code, and has expanded the scope of my work to encompass UIKit-based native iOS development.</p>
+
 </section>
 
 
@@ -70,7 +72,7 @@ permalink: /portfolio/
 
 <h1>Game <span class="ampersand">&amp;</span> Game Tools Development</h1>
 
-<p>In the game industry, I’ve built art pipeline tools to process 3D assets and manage VRAM layout, and implemented special effects, retexturing, LOD and dynamic subdivision, and realtime animation adjustments, dropping to R3000 assembly where needed to optimize for tightly resource-constrained Sony PlayStation hardware. My math and physics background has provided a solid foundation for conceptualizing and solving problems in 3D worlds.</p>
+<p>In the game industry, I’ve built art pipeline tools to process 3D assets and manage VRAM layout, and implemented special effects, retexturing, LOD and dynamic subdivision, and realtime animation adjustments, dropping from C++ to R3000 assembly where needed to optimize for tightly resource-constrained Sony PlayStation hardware. My math and physics background has provided a solid foundation for conceptualizing and solving problems in 3D worlds.</p>
 
 </section>
 
