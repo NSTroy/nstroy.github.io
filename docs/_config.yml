@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Troy Stephens @ Coherence Labs
-email: support@coherencelabs.com
-description: Coherence Labs GitHub Pages
-domain: coherencelabs.github.io
-url: https://coherencelabs.github.io
+email: troy@coherencelabs.com
+description: Troy Stephens' GitHub Pages
+domain: nstroy.github.io
+url: https://nstroy.github.io
 # baseurl: /docs
-twitter_username: CoherenceLabs
-github_username:  CoherenceLabs
+twitter_username: heytroy
+github_username:  NSTroy
 
 # Build settings
 theme: minima
