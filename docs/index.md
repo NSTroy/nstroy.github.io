@@ -1,5 +1,9 @@
 ---
-layout: page
+layout: home
 ---
-- [Portfolio](/portfolio/)
-- [Résumé](/resume/)
+
+### Troy Stephens
+
+Asymptotically pursuing clarity of systems design and understanding.
+
+Striving to build capable, autonomous systems that foster capable, autonomous people.

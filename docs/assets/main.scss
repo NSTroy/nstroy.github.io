@@ -3,102 +3,225 @@
 
 @import "minima";
 
-$text-color: #808080;
-$main-heading-color: #e39300;
-$main-heading-underline-color: #c98200;
-$link-color: #557594;
-$nav-button-border-color: #404040;
-$active-page-link-color: $main-heading-underline-color;
-$hovered-link-color: #0080ff;
+@import url(https://db.onlinewebfonts.com/c/461e4da9f27c3951cac18c90f5ca3936?family=Helvetica-Condensed-BlackObl);
+
+/* Light Mode Settings */
+$light-mode-background-color: #f0f0f0;
+$light-mode-text-color: #404040;
+$light-mode-main-heading-color: #202020;
+$light-mode-main-heading-underline-color: $light-mode-main-heading-color;
+$light-mode-page-title-color: #b0b0b0;
+$light-mode-page-title-prefix-color: #d0d0d0;
+$light-mode-heading-font-family: "Helvetica-Condensed-BlackObl", "Helvetica Neue", Helvetica, -apple-system, sans-serif;
+$light-mode-body-font-family: Georgia, Palatino, serif;
+$light-mode-body-text-size: 22px;
+$light-mode-old-experience-text-color: #585858;
+$light-mode-link-color: #557594;
+$light-mode-hovered-link-color: #0080ff;
+$light-mode-active-page-link-color: #808080;
+
+/* Dark Mode Settings */
+$dark-mode-background-color: #202020;
+$dark-mode-text-color: #008000;
+$dark-mode-main-heading-color: #d97d00;
+$dark-mode-main-heading-underline-color: #c98200;
+$dark-mode-page-title-color: #b0b0b0;
+$dark-mode-page-title-prefix-color: #404040;
+$dark-mode-heading-font-family: "Helvetica-Condensed-BlackObl", "Helvetica Neue", Helvetica, -apple-system, sans-serif;
+$dark-mode-body-font-family: "SF Mono", Menlo, Monaco, sans-serif;
+$dark-mode-body-text-size: 16px;
+$dark-mode-old-experience-text-color: #005000;
+$dark-mode-link-color: $light-mode-link-color;
+$dark-mode-hovered-link-color: $light-mode-hovered-link-color;
+$dark-mode-active-page-link-color: $dark-mode-main-heading-underline-color;
+
+/* Common Settings */
 
 body {
-	color: $text-color;
-	background-color: #202020;
+	color: $light-mode-text-color;
+	font-family: $light-mode-body-font-family;
+	font-size: $light-mode-body-text-size;
+    background-color: $light-mode-background-color;
+}
+
+a {
+	color: $light-mode-link-color;
+	border-bottom: 1px dotted $light-mode-link-color;
+	text-decoration: none;
+	&:hover {
+		color: $light-mode-hovered-link-color;
+		border-bottom: 1px solid $light-mode-hovered-link-color;
+		text-decoration: none;
+	}
+}
+
+header nav {
+	float: right;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: inherit;
+	a {
+		font-family: $light-mode-heading-font-family;
+		color: $light-mode-page-title-prefix-color;
+		text-decoration: none;
+		border-bottom: none;
+		box-sizing: border-box;
+		font-weight: bold;
+		display: inline-block;
+		font-size: 20px;
+		margin: 8px 0 0 20px;
+
+		&:hover, &:hover:visited {
+			color: $light-mode-active-page-link-color;
+			border-bottom: none;
+			text-decoration: none;
+		}
+		&:visited {
+			color: $light-mode-page-title-prefix-color;
+		}
+	}
+}
+
+header.post-header {
+	border-bottom: 1px solid $light-mode-page-title-prefix-color;
+	margin-bottom: 64px;
+}
+
+header:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.about nav a.about, .home nav a.home, .portfolio nav a.portfolio, .resume nav a.resume {
+	color: $light-mode-active-page-link-color;
 }
 
 .site-title, .site-title:visited, .site-nav .page-link {
-	color: $text-color;
+	color: $light-mode-text-color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: $light-mode-main-heading-color;
+	font-family: $light-mode-heading-font-family;
+	font-weight: bold;
+}
+
+h1.post-title {
+	float: left;
+	font-size: 36px;
+	margin-bottom: 0;
+	color: $light-mode-page-title-color;
+	.prefix {
+		color: $light-mode-page-title-prefix-color;
+	}
+}
+
+h2 {
+    margin-top: 2em;
+	font-size: 24px;
+    padding-bottom: 4px;
+	border-bottom: 1px solid $light-mode-main-heading-color;
+}
+
+li {
+    margin: 1em 0;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.home {
+	.post-content {
+		padding-left: 168px;
+		background-image: url(/images/Troy-Boca-round.png);
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: 128px 128px;
+		min-height: 256px;
+	}
 }
 
 .portfolio, .resume {
-	a {
-		color: $link-color;
-		border-bottom: 1px dotted $link-color;
-		text-decoration: none;
-	}
-	a:hover {
-		color: $hovered-link-color;
-		border-bottom: 1px solid $hovered-link-color;
-		text-decoration: none;
-	}
-	.contact-info {
-		margin-top: 3em;
-		text-align: center;
-		h1 {
-			font: 48px Optima, -apple-system, Helvetica, sans-serif;
-			margin-bottom: 0;
-		}
-		.title {
-			font: 24px Optima, -apple-system, Helvetica, sans-serif;
-			margin-bottom: 0;
-		}
-		address {
-			font-style: normal;
-		}
-	}
-	.summary {
-		margin-top: 3em;
-		text-align: center;
-	}
-	nav {
-		box-sizing: border-box;
-		margin-top: 3em;
-		text-align: center;
+	.post-content {
 		a {
-			box-sizing: border-box;
-			font-weight: bold;
-			color: $text-color;
-			display: inline-block;
-			margin: 0 2em;
-			border-bottom: 2px solid transparent;
+			color: $dark-mode-link-color;
+			border-bottom: 1px dotted $dark-mode-link-color;
 		}
 		a:hover {
-			box-sizing: border-box;
-			border-bottom: 2px solid $hovered-link-color;
+			color: $dark-mode-hovered-link-color;
+			border-bottom: 1px solid $dark-mode-hovered-link-color;
+			text-decoration: none;
+		}
+		li {
+			margin: 0;
+		}
+		p {
+			line-height: 1.5;
+		}
+		.contact-info {
+			margin-top: 3em;
+			text-align: center;
+			h1 {
+				color: $light-mode-text-color;
+				font: 48px Optima, -apple-system, Helvetica, sans-serif;
+				margin-bottom: 0;
+			}
+			.title {
+				color: $light-mode-text-color;
+				font: 24px Optima, -apple-system, Helvetica, sans-serif;
+			    margin-top: 0;
+				padding-bottom: 0;
+				margin-bottom: 0;
+				border-bottom: 0;
+			}
+			address {
+				font-style: normal;
+			}
+		}
+		.summary {
+			margin-top: 3em;
+			text-align: center;
+		}
+		section.category, .experience, .education, .knowledge {
+			margin-top: 4em;
+			h1 {
+				font-size: 24px;
+				color: $light-mode-main-heading-color;
+				border-bottom: 1px solid $light-mode-main-heading-underline-color;
+				margin-bottom: 1em;
+			}
+			h2 {
+				font-size: 18px;
+				font-weight: bold;
+				border-bottom: none;
+			}
+			img {
+				display: block;
+				margin: 0 auto 1em auto;
+				max-width: 100%;
+			}
+			.old {
+			    color: $light-mode-old-experience-text-color;
+			}
 		}
 	}
-	section.category, .experience, .education, .knowledge {
-		margin-top: 4em;
-		h1 {
-			color: $main-heading-color;
-			border-bottom: 1px solid $main-heading-underline-color;
-			margin-bottom: 1em;
-		}
-		h2 {
-			font-size: 18px;
-			font-weight: bold;
-		}
-		img {
-			display: block;
-			margin: 0 auto 1em auto;
-			max-width: 100%;
-		}
-		.old {
-		    color: #585858;
-		}
-	}
-}
-
-.portfolio nav a.portfolio, .resume nav a.resume {
-	color: $active-page-link-color;
-	border-color: $active-page-link-color;
 }
 
 .resume {
 	.experience, .education, .knowledge {
 		h1 {
-			color: inherit;
-			border-bottom: 1px solid $text-color;
+			font-size: 24px;
+			color: $light-mode-text-color;
+			border-bottom: 1px solid $light-mode-text-color;
+		}
+		h2 {
+			font-size: 18px;
+			color: $light-mode-text-color;
+			border-bottom: none;
 		}
 	}
 }
@@ -119,9 +242,14 @@ body {
     font-weight: bold;
 }
 
-.job .dates, .school .dates {
-    float: right;
+.job .location, .school .location {
     display: block;
+	font-size: 90%;
+}
+
+.job .dates, .school .dates {
+    display: block;
+	font-size: 90%;
     font-style: italic;
 }
 
@@ -143,5 +271,91 @@ footer {
 @media only screen and (max-width: 800px) {
 	body {
 		font-size: 120%;
+	}
+	header nav {
+		a {
+			margin: 8px 0 0 8px;
+		}
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: $dark-mode-text-color;
+		font-family: $dark-mode-body-font-family;
+		font-size: $dark-mode-body-text-size;
+		background-color: $dark-mode-background-color;
+	}
+	header nav {
+		a {
+			color: $dark-mode-page-title-prefix-color;
+			&:hover, &:hover:visited {
+				color: $dark-mode-active-page-link-color;
+			}
+			&:visited {
+				color: $dark-mode-page-title-prefix-color;
+			}
+		}
+	}
+	header.post-header {
+		border-bottom: 1px solid $dark-mode-page-title-prefix-color;
+	}
+	.about nav a.about, .home nav a.home, .portfolio nav a.portfolio, .resume nav a.resume {
+		color: $dark-mode-active-page-link-color;
+		border-color: $dark-mode-active-page-link-color;
+	}
+	h1,h2,h3,h4,h5,h6 {
+	    color: $dark-mode-main-heading-color;
+		font-family: $dark-mode-heading-font-family;
+	}
+	h1.post-title {
+		color: $dark-mode-page-title-color;
+		font-size: 36px;
+		.prefix {
+			color: $dark-mode-page-title-prefix-color;
+		}
+	}
+	h2,.post-content h2 {
+		border-bottom: 1px solid $dark-mode-main-heading-color;
+	}
+	.site-title, .site-title:visited, .site-nav .page-link {
+		color: $dark-mode-text-color;
+	}
+	.portfolio, .resume {
+		.post-content {
+			h1,h2 {
+				font-family: $dark-mode-heading-font-family;
+			}
+			.contact-info {
+				h1,.title {
+					color: $dark-mode-text-color;
+				}
+			}
+			section.category, .experience, .education, .knowledge {
+				margin-top: 4em;
+				h1 {
+					font-size: 24px;
+					font-weight: normal;
+					color: $dark-mode-main-heading-color;
+					border-bottom: 1px solid $dark-mode-main-heading-underline-color;
+				}
+				.old {
+				    color: $dark-mode-old-experience-text-color;
+				}
+			}
+		}
+	}
+	.resume {
+		.experience, .education, .knowledge {
+			h1,h2 {
+				color: $dark-mode-text-color;
+			}
+			h1 {
+				border-bottom: 1px solid $dark-mode-text-color;
+			}
+		}
+	}
+	.site-footer {
+		border-top: none;
 	}
 }

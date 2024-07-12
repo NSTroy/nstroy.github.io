@@ -72,7 +72,7 @@ permalink: /portfolio/
 
 <h1>Game <span class="ampersand">&amp;</span> Game Tools Development</h1>
 
-<p>In the game industry, I’ve built art pipeline tools to process 3D assets and manage VRAM layout, and implemented special effects, retexturing, LOD and dynamic subdivision, and realtime animation adjustments, dropping from C++ to R3000 assembly where needed to optimize for tightly resource-constrained Sony PlayStation hardware. My math and physics background has provided a solid foundation for conceptualizing and solving problems in 3D worlds.</p>
+<p>In the game industry, I built art pipeline tools to process 3D assets and manage VRAM layout, and implemented special effects, retexturing, LOD and dynamic subdivision, and realtime animation adjustments, dropping from C++ to R3000 assembly where needed to optimize for tightly resource-constrained Sony PlayStation hardware. My math and physics background has provided a solid foundation for conceptualizing and solving problems in 3D worlds.</p>
 
 </section>
 
